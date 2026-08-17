@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+*.egg
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试/缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 运行时数据(不入库)
+data/summaries/
+*.json.tmp
+
+# 密钥/凭证
+.env
+.env.*
+*.pem
+*.key
+*.crt
+config.local.yaml
+
+# 日志/临时
+*.log
+*.tmp
+*.swp
+*~
+
+# 打包
+*.tar.gz
+*.zip
+*.whl
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# 操作系统
+.DS_Store
+.desktop
